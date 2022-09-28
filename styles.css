@@ -82,7 +82,6 @@ button.white-border {
 
 ul {
     list-style: none;
-
 }
 
 /* ----> START OF BODY <---- */
@@ -91,6 +90,60 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 45px 0;
+}
+
+.info-container {
+    display: flex;
+    font-size: 13px;
+    gap: 40px;
+}
+
+.info-img-text {
+    max-width: 200px;
+}
+
+.square-img {
+    height: 175px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    color: #1F2937;
+    padding: 0 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+}
+
+.signature {
+    font-weight: bolder;
+    align-self: flex-end;
+    margin: 0;
+}
+
+/* ----> START OF FOOTER <---- */
 
 footer {
     display: flex;
