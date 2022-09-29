@@ -71,6 +71,7 @@ button {
 
 button:hover {
     background-color: #7aadff;
+    cursor: pointer;
 }
 
 .secondary-text,
